@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 class="logo">Priyanshu.</h1>
+    <div id="header">
+        <div id="container">
+            <!-- <img id="myphotos" src="images/photo.png" alt=""> -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutContainer">About</a></li>
+                    <li><a href="#work">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Priyanshu</span> Raj <br>From India</h1>
+                <h6>Currently I'm Pursuing My B.Tech From <span>Rabindranath Tagore <br> University</span> (Bhopal).</h6>
+                <a target="_blank" href="https://drive.google.com/file/d/1QGT8C8cA-kUtZD6jytGDagpZAbAMNOPM/view?usp=drive_link" download="Resume">
+                <button class="btn"><i class="fa fa-download"></i> Resume</button>
+                </a>
+            </div>
+        </div>
+    </div>
+<!-- About section -->
+    <div id="aboutContainer">
+        <div class="aboutMe">
+            <h1 id="aboutmeText">About me</h1>
+            <p id="aboutPara">
+                Hello! I'm Priyanshu Raj, a passionate web developer and tech enthusiast from India.
+                <br><br>
+                I've built a solid foundation in front-end technologies, including HTML, CSS, JavaScript, Tailwind, and React, along with Java and data structures & algorithms.
+                <br><br>
+                I'm dedicated to writing effective code and constantly improving my skills. My passion for technology keeps me updated on trends, and my discipline ensures I deliver quality work. Outside coding, I enjoy experimenting in the kitchen!
+            </p>
+
+            <h2 id="skillsText">Future Learning Goals</h2>
+            <p id="aboutPara">
+                Focused on mastering the MERN stack to build efficient full-stack web applications and enhance my problem-solving skills across both front-end and back-end development.
+            </p>
+            <h2 id="skillsText">Technical Skills</h2>
+            <ul class="skills-list">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>ReactJs</li>
+                <li>Java</li>
+                <li>DSA</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+<!-- Work section -->
+    <div id="work">
+        <div id="project1" class="project">
+            <img id="iconnect" src="images/iconnect.png" alt="Photo">
+            <h3 id="para1">
+                iConnect is a social media app where users can log in, create profiles, upload posts with captions, like posts,
+                and search for others. A feed page connects users by displaying shared content.
+                <br><br>
+                Tech used: HTML, CSS, Tailwind CSS, JavaScript, Node.js, Express.js, MongoDB.
+            </h3>
+        </div>
+
+        <div id="project2" class="project">
+            <img id="pui" src="images/pui.png" alt="Photo">
+            <h3 id="para2">
+                Pinterest-inspired project featuring search functionality implemented with DOM manipulation.
+                This project replicates Pinterest's user interface with a search feature that dynamically updates content based on user input.
+                <br><br>Tech used: HTML, CSS, JavaScript.
+            </h3>
+        </div>
+
+        <div id="project3" class="project">
+            <img id="cart" src="images/cart.png" alt="Photo">
+            <h3 id="para3">
+                A shopping cart project utilizing HTML, Tailwind CSS, and JavaScript. The functionality enables users to add
+                items to their cart by clicking on a plus icon, and its show realtime data
+                <br><br>Tech use - HTML, CSS,JS.
+            </h3>
+        </div>
+    </div>
+<!-- Contact section -->
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <form id="contactForm" action="/send-email" method="POST">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="footer-container">
+         <br><br><br><br><br>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/priyanshu-raj-9782aa241/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/Priyanshu6055" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://twitter.com/priyanshu_6055" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/priyanshu.raj.6055" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 Priyanshu Raj | All Rights Reserved</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
