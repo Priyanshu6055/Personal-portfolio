@@ -9,15 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1 class="logo">Priyanshu.</h1>
+    <h1 class="logo"> <span class="auto-type"></span></h1>
     <div id="header">
         <div id="container">
-            <!-- <img id="myphotos" src="images/photo.png" alt=""> -->
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#aboutContainer">About</a></li>
-                    <li><a href="#work">Works</a></li>
+                    <li><a href="#work">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -60,11 +59,11 @@
         </div>
     </div>
 <!-- Work section -->
-    <div id="work">
+    <div id="work"><h1>Projects</h1>
         <div id="project1" class="project">
             <img id="iconnect" src="images/iconnect.png" alt="Photo">
             <h3 id="para1">
-                iConnect is a social media app where users can log in, create profiles, upload posts with captions, like posts,
+                <a target="_blank" href="https://github.com/Priyanshu6055/iConnect-WebApp.git" id="projectlink">&#x1F517</a> iConnect is a social media app where users can log in, create profiles, upload posts with captions, like posts,
                 and search for others. A feed page connects users by displaying shared content.
                 <br><br>
                 Tech used: HTML, CSS, Tailwind CSS, JavaScript, Node.js, Express.js, MongoDB.
@@ -74,7 +73,7 @@
         <div id="project2" class="project">
             <img id="pui" src="images/pui.png" alt="Photo">
             <h3 id="para2">
-                Pinterest-inspired project featuring search functionality implemented with DOM manipulation.
+                <a target="_blank" href="https://pinterest-front-end.vercel.app/" id="projectlink">&#x1F517</a> Pinterest-inspired project featuring search functionality implemented with DOM manipulation.
                 This project replicates Pinterest's user interface with a search feature that dynamically updates content based on user input.
                 <br><br>Tech used: HTML, CSS, JavaScript.
             </h3>
@@ -83,7 +82,7 @@
         <div id="project3" class="project">
             <img id="cart" src="images/cart.png" alt="Photo">
             <h3 id="para3">
-                A shopping cart project utilizing HTML, Tailwind CSS, and JavaScript. The functionality enables users to add
+                <a target="_blank" href="https://frontend-cart.vercel.app/" id="projectlink">&#x1F517</a> A shopping cart project utilizing HTML, Tailwind CSS, and JavaScript. The functionality enables users to add
                 items to their cart by clicking on a plus icon, and its show realtime data
                 <br><br>Tech use - HTML, CSS,JS.
             </h3>
@@ -113,6 +112,15 @@
         <p>&copy; 2023 Priyanshu Raj | All Rights Reserved</p>
     </div>
 </footer>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["Programmer.", "Priyanshu.","Developer.", "Creator."],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        })
+</script>
     <script src="script.js"></script>
     <script src="app.js"></script>
 </body>
