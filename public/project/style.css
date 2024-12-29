@@ -1,0 +1,18 @@
+#main{
+    background-color: black;
+}
+.card-img-top {
+    width: 150%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.btn-indianred {
+    background-color: indianred; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+}
+.btn-indianred:hover {
+    background-color: darkred; /* Slightly darker color on hover */
+}
