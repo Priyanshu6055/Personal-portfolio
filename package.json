@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "node": "^18.20.5",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "dev" : "nodemon app.js",
+    "start": "node app.js"
+  },
+  "name": "portfolio-w-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
